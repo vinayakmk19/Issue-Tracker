@@ -1,0 +1,109 @@
+#outer__home {
+  /* background-image: url('../img/BugBounty.png'); */
+  background-color: #101d2c;
+  background-size: auto;
+  background-position: center;
+  height: 85vh;
+}
+#inner__home {
+  display: flex;
+  justify-content: space-around;
+  padding: 14px 28px;
+  color: #f9f7f6;
+}
+
+.heading {
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 600px;
+  max-width: 220px;
+}
+
+form {
+  background-color: #101d2c;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 14px;
+  color: #f9f7f6;
+  border: 1px solid #f9f7f6;
+}
+
+form input,
+textarea {
+  margin-bottom: 14px;
+  width: 350px;
+  padding: 6px;
+  background: none;
+  border-radius: 8px;
+  border: 1.5px solid #fff;
+  color: #f9f7f6;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  color: #f9f7f6;
+  font-size: 0.8rem;
+  align-items: center;
+}
+
+form button {
+  background: #f9f7f6;
+  border: none;
+  padding: 6px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#projects__section {
+  overflow-y: scroll;
+  height: 80vh;
+  width: 500px;
+  background-color: #101d2c;
+  padding: 20px;
+  border: 1px solid #f9f7f6;
+}
+
+#porjects__list ul {
+  list-style-type: none;
+}
+
+.single__project__outer {
+  background-color: #101d2c;
+  width: 440px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #f9f7f6;
+}
+
+.single__project__inner {
+  padding: 20px;
+}
+
+.project__key_val {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+}
+
+.key {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.single__project__inner a:link,
+.single__project__inner a:visited {
+  font-weight: 500;
+  color: #4126ba;
+  margin-top: 5px;
+  transition: all 0.2s;
+}
+
+.single__project__inner a:hover,
+.single__project__inner a:active {
+  color: #f9f7f6;
+}
