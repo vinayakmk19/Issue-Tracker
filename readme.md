@@ -17,4 +17,4 @@ This is an issue tracker application built using Node.js and EJS. It allows user
 
  Start the application: npm run start:dev
 
-Application will be accessible at http://localhost:8000
+Live at https://issue-tracker-gsq9.onrender.com/
